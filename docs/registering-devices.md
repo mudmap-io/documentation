@@ -157,7 +157,7 @@ To see your expected monthly costs, open the Stripe portal in the
 where you can also update payment details. Read more at the [payments] page 
 in this documentation website.
 
-[payments]: /payments
+[payments]: /stripe-payments
 [stripe]: https://stripe.com
 [dashboard-profile]: https://dashboard.mudmap.io/dashboard/profile
 
