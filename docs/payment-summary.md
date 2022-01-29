@@ -1,5 +1,5 @@
 ---
-title: Payment
+title: Payments (legacy)
 ---
 
 Devices cannot be registered with Mudmap until there is a valid subscription in place. This 

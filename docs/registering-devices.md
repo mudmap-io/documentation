@@ -81,11 +81,19 @@ This could mean several things:
 In almost all instances, remediation starts with a user attempting to access the device manually.
 
 Using the device credentials supplied to Mudmap, attempt to log in using the terminal or terminal 
-emulator. If you cannot authenticate, double-check the information is correct. 
+emulator. If you cannot authenticate, double-check the information is correct.
 
 A common reason for this failure is the firewall set to `Public Key only` for SSH connections. 
 Read [preparing devices] for more details on *why* Mudmap needs Password access via SSH and when 
 it can be disabled.
+
+If all of the above steps fail, please [contact me](mailto:dan@mudmap.io). 
+The more information you are able to provide the easier it will be to debug 
+the issue. Gather logs from pfSense, particularly the ssh access logs, are 
+invaluable, as is whether the device is virtual or physical. Issues on the 
+[Github][gh-issue] page are also welcomed.
+
+[gh-issue]: https://github.com/mudmap-io/customer-support/issues
 
 ## Update
 
@@ -124,9 +132,40 @@ Altering the API settings, deleting the API or changing the `mudmap` user accoun
 
 ### Payment Required
 
+When you have exhausted your *free tier* allocation, you will no longer 
+able to access your devices detailed information, or make changes until 
+subscribed or under the allocation.
+
+To make a payment, go to the [profile][dashboard-profile] page. If you are 
+not yet subscribed you will see a Subscribe button. Clicking this will open 
+a [Stripe] page where you will be able to enter your payment details. 
+Stripe is Mudmap's payment provider and handles all payment related details.
+
+<div style={{textAlign: 'center'}}>
+<img  alt="Subscribing to Mudmap through the profile page" src={useBaseUrl
+('img/dashboard-not-subscribed.png')} />
+</div>
+
+
+Once you are subscribed, you will have full access to Mudmap and be able to 
+add as many devices are required. Mudmap is a pay as you go service meaning 
+you will be charged only for the devices you're currently using. Note, 
+added devices are not charged but activated devices are. 
+
+To see your expected monthly costs, open the Stripe portal in the 
+[profile][dashboard-profile] page. It will take to a Stripe hosted page 
+where you can also update payment details. Read more at the [payments] page 
+in this documentation website.
+
+[payments]: /payments
+[stripe]: https://stripe.com
+[dashboard-profile]: https://dashboard.mudmap.io/dashboard/profile
+
+:::note Version 1 only
 The first device connected to Mudmap will receive a prompt for payment. [Paddle] is the payment 
 provider and will be responsible for all transactions and payment related data. Read more about 
 how [Paddle] works for Mudmap [here][paddle-mm]. 
+:::
 
 After payment success, Mudmap will not prompt for payment again. Read more about how Mudmap 
 calculates invoicing [here][payments].
