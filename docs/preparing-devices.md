@@ -13,7 +13,7 @@ accessible you'll be able to connect to [Mudmap].
 
 ## How it works
 
-:::note tl;dr
+:::tip tl;dr
 Mudmap uses **SSH** to communicate with your device. Each firewall will 
 need to have SSH publicly facing. The rest of this page describe how to do 
 set this up. 
@@ -105,7 +105,7 @@ Most options can be left blank. Change the following:
   example, *Mudmap Initial SSH Connection via WAN*. This way we know, once 
   the device and Mudmap are communicating we can delete or disable this rule.
 
-:::note Static IP
+:::tip Static IP
 The following IP's need SSH access to your device. These are Mudmaps load 
 balancers. Mudmap does not use any other IP addresses for SSH.
 - 44.233.151.27
@@ -202,5 +202,5 @@ to discuss other options such as:
 [openvpn]: https://openvpn.net
 [ssh-video]: https://www.youtube.com/watch?v=MVoe3mX_UZQ&ab_channel=LawrenceSystems
 [remote-video]: https://www.youtube.com/watch?v=PgielyUFGeQ&ab_channel=LawrenceSystems
-[security]: https://docs.mudmap.io/security
+[security]: /security
 [package]: https://github.com/jaredhendrickson13/pfsense-api

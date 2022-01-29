@@ -34,7 +34,7 @@ Mudmap require?
 - SSH Port that is publicly available
 - Graphical User Interface port - the port used to access the pfSense user 
   interface, defaults to 443
-  :::note why do you need the pfSense user interface port?
+  :::tip why do you need the pfSense user interface port?
   This is for the API only - it uses this port to interact with pfSense. This 
   does not need to be internet facing (highly recommend against that practice).
   :::

@@ -14,24 +14,20 @@ activate devices head over to [Adding a Device to Mudmap][adding] and
 
 ## Register you account
 
-Fill in your desired username and email, enter a secure password and click 
-"**Register**".
+Mudmap uses [Auth0](https://auth0.com) for authentication and user 
+management. To register, fill in your email and password. Auth0 will then 
+send you a verification email, so be sure to check for that in your inbox.
 
-:::tip take note
-
-Your email will be associated with the payment provider, Paddle, so make 
-sure you double-check its correct!
-
-:::
+The registration page will look the same as below.
 
 <div style={{textAlign: 'center'}}>
 <img  alt="Register your Mudmap account" src={useBaseUrl
-('img/register-mudmap-account.png')} />
+('img/register-auth0.png')} />
 </div>
 
-If you've entered a valid email and/or username you'll be presented with a 
-success alert. If not, try another username or double-check your email is 
-correct. 
+After registering, you will be able to login and get started using Mudmap. 
+Password resets are handled by Auth0 so make sure you've added them to the 
+safe email list in your account, or check spam for a reset, if needed.
 
 ### Can't register?
 Having trouble registering? Please reach out and [get in touch][contact] so it

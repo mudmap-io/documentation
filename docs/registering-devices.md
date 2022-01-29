@@ -16,7 +16,7 @@ export const Highlight = ({children, color}) => (
 );
 
 
-:::note Haven't added any devices yet?
+:::tip Haven't added any devices yet?
 This follows from the previous step, [Adding Devices to Mudmap][adding], if 
 you have not added a device yet, be sure to read over that page first.
 :::
@@ -161,7 +161,7 @@ in this documentation website.
 [stripe]: https://stripe.com
 [dashboard-profile]: https://dashboard.mudmap.io/dashboard/profile
 
-:::note Version 1 only
+:::caution Version 1 only
 The first device connected to Mudmap will receive a prompt for payment. [Paddle] is the payment 
 provider and will be responsible for all transactions and payment related data. Read more about 
 how [Paddle] works for Mudmap [here][paddle-mm]. 
@@ -188,5 +188,5 @@ ove SSH.
 [adding]: adding-the-device.md
 [preparing devices]: preparing-devices.md
 [paddle]: https://paddle.com?ref=mudmap.io
-[paddle-mm]: paddle-mor.md
-[payments]: payment-summary.md
+[paddle-mm]: stripe-payments.md
+[payments]: payment-legacy.md
