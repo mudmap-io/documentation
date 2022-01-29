@@ -41,7 +41,7 @@ module.exports = {
           activeBasePath: "/docs"
         },
         {
-          href: 'https://github.com/mudmapio/documentation',
+          href: 'https://github.com/mudmap-io/documentation',
           label: 'GitHub',
           position: 'right',
         },
@@ -73,7 +73,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/mudmapio/documentation',
+              href: 'https://github.com/mudmap-io/documentation',
             },
             {
               label: 'Twitter',
@@ -86,11 +86,11 @@ module.exports = {
           items: [
             {
               label: "Feedback",
-              to: "https://github.com/mudmapio/public-interactions/issues"
+              to: "https://github.com/mudmap-io/customer-support/issues"
             },
             {
               label: "Found a Security Issue?",
-              href: "https://github.com/mudmapio/public-interactions/blob/main/SECURITY.md"
+              href: "https://github.com/mudmap-io/customer-support/blob/main/SECURITY.md",
             },
             {
               label: "Want a Demo?",
@@ -111,7 +111,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/mudmapio/documentation/edit/main/',
+            'https://github.com/mudmap-io/documentation/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
