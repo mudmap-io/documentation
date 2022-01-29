@@ -31,13 +31,13 @@ module.exports = {
         // ],
         "User Profile": [
             "user-profile-overview",
-            "payment-summary",
-            "paddle-mor",
+            "stripe-payments",
+            "payment-legacy",
         ],
-        // "Architecture": [
-        //     "security",
+        "Architecture": [
+            "security",
         //     "design",
-        // ]
+        ]
 
     }
 };

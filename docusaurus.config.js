@@ -2,14 +2,12 @@
 module.exports = {
   title: 'Mudmap Documentation',
   tagline: 'Management made easy',
-  // url: 'https://mudmap.io/',
   url: 'https://docs-2sce.onrender.com/',
-  // baseUrl: '/docs/', # fails
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'mudmapio', // Usually your GitHub org/user name.
+  organizationName: 'mudmap-io', // Usually your GitHub org/user name.
   projectName: 'documentation', // Usually your repo name.
   scripts: [
       {src: "https://plausible.io/js/plausible.js",
@@ -19,7 +17,7 @@ module.exports = {
       }
     ],
   themeConfig: {
-    colorMode: {disableSwitch: true},
+    colorMode: {disableSwitch: false},
     algolia: {
       apiKey: 'bc5db1742d629962f685dadf0bc4fde2',
       indexName: 'mudmap'
@@ -41,7 +39,7 @@ module.exports = {
           activeBasePath: "/docs"
         },
         {
-          href: 'https://github.com/mudmapio/documentation',
+          href: 'https://github.com/mudmap-io/documentation',
           label: 'GitHub',
           position: 'right',
         },
@@ -73,7 +71,7 @@ module.exports = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/mudmapio/documentation',
+              href: 'https://github.com/mudmap-io/documentation',
             },
             {
               label: 'Twitter',
@@ -86,11 +84,11 @@ module.exports = {
           items: [
             {
               label: "Feedback",
-              to: "https://github.com/mudmapio/public-interactions/issues"
+              to: "https://github.com/mudmap-io/customer-support/issues"
             },
             {
               label: "Found a Security Issue?",
-              href: "https://github.com/mudmapio/public-interactions/blob/main/SECURITY.md"
+              href: "https://github.com/mudmap-io/customer-support/blob/main/SECURITY.md",
             },
             {
               label: "Want a Demo?",
@@ -111,10 +109,10 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/mudmapio/documentation/edit/main/',
+            'https://github.com/mudmap-io/documentation/edit/main/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          // customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],

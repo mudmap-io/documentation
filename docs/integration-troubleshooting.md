@@ -68,6 +68,11 @@ Upgrading *pfSense* **will** result in the removal of the API agent. This is a *
 and cannot be overcome by Mudmap. If you are upgrading *pfSense* you will need to delete the 
 device from Mudmap and re-install it again.
 
+:::info Re-install API automation is coming
+In the future, Mudmap will allow users to re-install the API without 
+needing to delete the device from Mudmap. This will be announced once live.
+:::
+
 ### The API has been altered
 
 Remove the device from Mudmap and reinstall via the registration
