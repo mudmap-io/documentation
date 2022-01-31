@@ -43,6 +43,7 @@ module.exports = {
       "videos/demo-registration",
       "videos/demo-firewall-rules",
       "videos/demo-firewall-alias",
+      "videos/demo-diagnostics",
     ]
 
   }
