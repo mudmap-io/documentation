@@ -21,6 +21,10 @@ This follows from the previous step, [Adding Devices to Mudmap][adding], if
 you have not added a device yet, be sure to read over that page first.
 :::
 
+:::info Demo Video
+There is also a video demonstration, [here](/register-video-demo)
+:::
+
 Now that we've got a device showing up in the table of *Inactive Devices* 
 we have three options; Activate, Update or Delete. 
 

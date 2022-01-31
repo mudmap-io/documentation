@@ -23,7 +23,7 @@ all your devices.
 
 <div style={{textAlign: 'center'}}>
 <img  alt="Register your Mudmap account" src={useBaseUrl
-('img/mm-dashboard-layout.png')} />
+('img/mudmap-img-website-banner.png')} />
 </div>
 
 ## Overview
