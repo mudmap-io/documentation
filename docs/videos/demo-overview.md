@@ -1,6 +1,7 @@
 ---
 title: Mudmap Overview video
-id: overview-video-demo
+id: demo-overview
+slug: overview-video
 ---
 import ReactPlayer from 'react-player'
 

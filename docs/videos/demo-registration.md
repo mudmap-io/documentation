@@ -1,6 +1,6 @@
 ---
 title: Adding and Registering a device videos
-id: register-video-demo
+id: demo-registration
 ---
 import ReactPlayer from 'react-player'
 

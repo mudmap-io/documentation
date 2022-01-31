@@ -39,8 +39,10 @@ module.exports = {
       //     "design",
     ],
     "Videos (demonstrations)": [
-      "overview-video-demo",
-      "register-video-demo",
+      "videos/demo-overview",
+      "videos/demo-registration",
+      "videos/demo-firewall-rules",
+      "videos/demo-firewall-alias",
     ]
 
   }
