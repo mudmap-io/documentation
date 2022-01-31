@@ -35,6 +35,6 @@ can be sorted out as soon as possible.
 
 
 [register]: https://mudmap.io/register
-[adding]: https://docs.mudmap.io/adding-the-device
-[register-device]: https://docs.mudmap.io/registering-devices
+[adding]: /adding-the-device
+[register-device]: /registering-devices
 [contact]: https://mudmap.io/contact

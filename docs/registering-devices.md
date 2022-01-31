@@ -22,7 +22,7 @@ you have not added a device yet, be sure to read over that page first.
 :::
 
 :::info Demo Video
-There is also a video demonstration, [here](/register-video-demo)
+There is also a video demonstration, [here](/videos/demo-overview.md)
 :::
 
 Now that we've got a device showing up in the table of *Inactive Devices* 
@@ -97,7 +97,7 @@ the issue. Gather logs from pfSense, particularly the ssh access logs, are
 invaluable, as is whether the device is virtual or physical. Issues on the 
 [Github][gh-issue] page are also welcomed.
 
-[gh-issue]: https://github.com/mudmap-io/customer-support/issues
+
 
 ## Update
 
@@ -161,9 +161,7 @@ To see your expected monthly costs, open the Stripe portal in the
 where you can also update payment details. Read more at the [payments] page 
 in this documentation website.
 
-[payments]: /stripe-payments
-[stripe]: https://stripe.com
-[dashboard-profile]: https://dashboard.mudmap.io/dashboard/profile
+
 
 :::caution Version 1 only
 The first device connected to Mudmap will receive a prompt for payment. [Paddle] is the payment 
@@ -194,3 +192,7 @@ ove SSH.
 [paddle]: https://paddle.com?ref=mudmap.io
 [paddle-mm]: stripe-payments.md
 [payments]: payment-legacy.md
+[payments]: /stripe-payments
+[stripe]: https://stripe.com
+[dashboard-profile]: https://dashboard.mudmap.io/dashboard/profile
+[gh-issue]: https://github.com/mudmap-io/customer-support/issues

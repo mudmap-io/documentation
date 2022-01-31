@@ -14,7 +14,7 @@ navigation bar on the left-hand side and pages with headings produce a table of
 contents for easier navigation on the right.
 
 A video demonstration of the platform can be found, 
-[here](/overview-video-demo).
+[here](/videos/demo-overview.md).
 
 Need help with something and it's not here? Please [contact me] so I can update
 the documentation. If you see an error, no matter how small, you can also 
