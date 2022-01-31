@@ -10,8 +10,11 @@ devices easier.
 
 This is the documentation for [Mudmap]. It is a great place to start and read
 up on how to best integrate your devices into the platform. There is a helpful
-naigation bar on the lefthand side and pages with headings produce a table of 
+navigation bar on the left-hand side and pages with headings produce a table of 
 contents for easier navigation on the right.
+
+A video demonstration of the platform can be found, 
+[here](/videos/demo-overview.md).
 
 Need help with something and it's not here? Please [contact me] so I can update
 the documentation. If you see an error, no matter how small, you can also 

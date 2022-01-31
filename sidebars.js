@@ -10,34 +10,41 @@
  */
 
 module.exports = {
-    docsSidebar: {
-        "Get Started": [
-            "welcome",
-            "register-account",
-            "preparing-devices",
-            "adding-the-device",
-            "registering-devices",
-            "integration-troubleshooting",
-            "free-tier",
-            "pfsense-community-and-plus",
-        ],
-        "Dashboard": [
-            "welcome-dashboard",
-            // "registering-devices-dashboard",
-            "device-list-dashboard"
-        ],
-        // "Devices in Detail": [
-        //     "detail-view-dashboard",
-        // ],
-        "User Profile": [
-            "user-profile-overview",
-            "stripe-payments",
-            "payment-legacy",
-        ],
-        "Architecture": [
-            "security",
-        //     "design",
-        ]
+  docsSidebar: {
+    "Get Started": [
+      "welcome",
+      "register-account",
+      "preparing-devices",
+      "adding-the-device",
+      "registering-devices",
+      "integration-troubleshooting",
+      "free-tier",
+      "pfsense-community-and-plus",
+    ],
+    "Dashboard": [
+      "welcome-dashboard",
+      // "registering-devices-dashboard",
+      "device-list-dashboard"
+    ],
+    // "Devices in Detail": [
+    //     "detail-view-dashboard",
+    // ],
+    "User Profile": [
+      "user-profile-overview",
+      "stripe-payments",
+      "payment-legacy",
+    ],
+    "Architecture": [
+      "security",
+      //     "design",
+    ],
+    "Videos (demonstrations)": [
+      "videos/demo-overview",
+      "videos/demo-registration",
+      "videos/demo-firewall-rules",
+      "videos/demo-firewall-alias",
+      "videos/demo-diagnostics",
+    ]
 
-    }
+  }
 };
