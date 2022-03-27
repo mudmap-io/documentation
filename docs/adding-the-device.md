@@ -30,14 +30,19 @@ about the firewall and submitting that in a form. What information does
 Mudmap require?
 
 - A label for the firewall, this is just for convenience
-- Host Address, must be a IPv4 or IPv6 address
+- Host Address must be a IPv4, IPv6, or routable Hostname.
+:::tip Dynamic IPs
+Mudmap supports internet routable Hostnames as well as static IP's. This means 
+if you have a [DDNS](https://en.wikipedia.org/wiki/Dynamic_DNS) or 
+[CNAME](https://www.cloudflare.com/en-au/learning/dns/dns-records/dns-cname-record/) entry for the device Mudmap will resolve it correctly.
+:::
 - SSH Port that is publicly available
 - Graphical User Interface port - the port used to access the pfSense user 
   interface, defaults to 443
-  :::tip why do you need the pfSense user interface port?
-  This is for the API only - it uses this port to interact with pfSense. This 
-  does not need to be internet facing (highly recommend against that practice).
-  :::
+:::tip why do you need the pfSense user interface port?
+This is for the API only - it uses this port to interact with pfSense. This 
+does not need to be internet facing.
+:::
 - pfSense version; possible combinations 2.4, 2.5 and 2.6
 
 The *Device Registration* page has two components; **Register 

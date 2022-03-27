@@ -36,6 +36,11 @@ will show up in the table like the image below.
 ('img/register-devices-docs-connections.png')} />
 </div>
 
+:::tip Hostname or IP
+Devices can be accessed with either a static IP or a routable Hostname via 
+[DDNS](https://en.wikipedia.org/wiki/Dynamic_DNS) or a 
+[CNAME](https://www.cloudflare.com/en-au/learning/dns/dns-records/dns-cname-record/) entry to a URL you control.
+:::
 ## Activation
 
 To start the activation process is simple just click the <Highlight color="#4f46e5">activate</Highlight> button 
@@ -91,9 +96,9 @@ A common reason for this failure is the firewall set to `Public Key only` for SS
 Read [preparing devices] for more details on *why* Mudmap needs Password access via SSH and when 
 it can be disabled.
 
-If all of the above steps fail, please [contact me](mailto:dan@mudmap.io). 
+If all the above steps fail, please [contact me](mailto:dan@mudmap.io). 
 The more information you are able to provide the easier it will be to debug 
-the issue. Gather logs from pfSense, particularly the ssh access logs, are 
+the issue. Gathering logs from pfSense, particularly the ssh access logs, are 
 invaluable, as is whether the device is virtual or physical. Issues on the 
 [Github][gh-issue] page are also welcomed.
 
@@ -166,7 +171,7 @@ in this documentation website.
 :::caution Version 1 only
 The first device connected to Mudmap will receive a prompt for payment. [Paddle] is the payment 
 provider and will be responsible for all transactions and payment related data. Read more about 
-how [Paddle] works for Mudmap [here][paddle-mm]. 
+how [Paddle] works for Mudmap [here][paddle-payments]. 
 :::
 
 After payment success, Mudmap will not prompt for payment again. Read more about how Mudmap 
@@ -191,7 +196,7 @@ ove SSH.
 [preparing devices]: preparing-devices.md
 [paddle]: https://paddle.com?ref=mudmap.io
 [paddle-mm]: stripe-payments.md
-[payments]: payment-legacy.md
+[paddle-payments]: payment-legacy.md
 [payments]: /stripe-payments
 [stripe]: https://stripe.com
 [dashboard-profile]: https://dashboard.mudmap.io/dashboard/profile
