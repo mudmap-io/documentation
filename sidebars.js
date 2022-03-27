@@ -24,7 +24,8 @@ module.exports = {
     "Dashboard": [
       "welcome-dashboard",
       // "registering-devices-dashboard",
-      "device-list-dashboard"
+      "device-list-dashboard",
+      "mudmap-api-page",
     ],
     // "Devices in Detail": [
     //     "detail-view-dashboard",

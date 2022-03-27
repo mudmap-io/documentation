@@ -1,0 +1,90 @@
+---
+title: Mudmap API Page
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl'; export const Highlight = (
+  {children, color}) => (
+  <span style={{
+    backgroundColor: color, borderRadius: '2px', color: '#fff',
+    padding: '0.2rem',
+  }}>
+{children}
+</span>
+);
+
+
+Mudmap uses [software][pfsense-api] to make connections between it and the
+firewall. This software evolves over time and can get out of sync, or need to
+be updated to provide fixes to outstanding issues. This page details how it
+works and when you [**need**](#re-activation) it.
+
+<div style={{textAlign: 'center'}}>
+  <img alt="Mudmap API software information page image" src={useBaseUrl
+  ('img/mudmap-api-page-banner.png')}/>
+</div>
+
+Mudmap's API page image.
+
+## Updating
+
+<div style={{textAlign: 'center'}}>
+  <img alt="Updating the API button" src={useBaseUrl
+  ('img/api-page-update-btn.png')}/>
+</div>
+
+The [package][pfsense-api] that provides the API layer between Mudmap and its
+clients is under constant development. This feature allows the firewall owner
+to update their Mudmap managed device as required. It is recommended to keep the device up-to date.
+
+Navigating to the API page will automatically retrieve the `current_version`
+, `latest_version` and whether there is an `update_available`. Any firewall
+which is out of date with the upstream API will present
+a <Highlight color="#4B5563">
+Update Now</Highlight> button.
+
+## Re-installation
+
+<div style={{textAlign: 'center'}}>
+  <img alt="Re-install button" src={useBaseUrl
+  ('img/api-page-update-btn.png')}/>
+</div>
+
+Mudmap provides the ability to <Highlight color="#CA8A04">
+Re-Install</Highlight> the API on demand. Typically, this is not often needed
+but can be helpful when debugging issues when in consultation with Mudmap
+staff.
+
+## Re-activation
+
+<div style={{textAlign: 'center'}}>
+  <img alt="Re-Activation button" src={useBaseUrl
+  ('img/api-page-re-activate-btn.png')}/>
+</div>
+
+The [software][pfsense-api] used to make a connection between Mudmap and each
+firewall <u>does not</u> persist after a pfSense software version upgrade (or
+downgrade).
+
+When a firewall is upgraded, Mudmap's API must be re-installed and
+re-activated. To do this, there is a <Highlight color="#DC2626">
+Re-Activate</Highlight> button. This will start the process of re-registering
+and re-activating the device in Mudmap's backend. It is the same as the flow
+described in
+the [Registering Devices](/registering-devices.md#the-activation-flow) section.
+
+This process is required because the API is no longer installed meaning the
+much simpler [re-installation](#re-installation) will not work.
+
+## Prompts
+
+Before any actions are conducted you will be prompted to continue. An example of the
+prompt will look like this.
+
+<div style={{textAlign: 'center'}}>
+  <img alt="Prompt" src={useBaseUrl
+  ('img/api-page-confirm.png')}/>
+</div>
+
+Once the action has completed another notification will be shown letting you know the status.
+
+[pfsense-api]: https://github.com/jaredhendrickson13/pfsense-api
