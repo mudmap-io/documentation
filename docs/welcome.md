@@ -22,11 +22,6 @@ create a pull request by clicking the *Edit this page* link.
 
 Thanks for using [Mudmap]!
 
-:::tip We've updated the entire app!
-Mudmap has been updated to version 2! These docs are still valid for 
-Version 1 but may not fully represent the newer updated features. I'm 
-working hard to get this rectified as soon as possible.
-:::
 
 [mudmap]: https://mudmap.io/
 [contact me]: https://mudmap.io/contact
