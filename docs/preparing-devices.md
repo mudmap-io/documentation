@@ -173,7 +173,7 @@ sage advice regarding those passwords.
 > shell access have strong passwords that cannot be easily guessed. - Netgate
  
 There are alternatives should you feel too uncomfortable with this. Sadly, 
-none of these will give you the convience of managing *all* your firewalls 
+none of these will give you the convenience of managing *all* your firewalls 
 from one location.
 
 For consideration have a look at some of these options if you feel Mudmap is 
