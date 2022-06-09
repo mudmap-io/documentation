@@ -57,6 +57,9 @@ do the following:
   Mudmap accepts non-default ports for SSH and **highly recommends** that you
   use a custom port instead of the default of 22.
   :::
+- It's now recommended that Mudmap's static IP's be granted login protection to
+  prevent `sshguard` from blacklisting the server. This can cause installation
+  issues. The list of IP addresses are found [below](#creating-a-rule).
 - Click **Save**
 
 It should look something like this. Note the non-default port for illustration
@@ -68,6 +71,10 @@ purposes.
 ('img/preparing-device-ssh-pfsense.png')} />
 </div>
 
+<div style={{textAlign: 'center'}}>
+  <img  alt="Preparing your pfSense firewall - Login Protection" src={useBaseUrl
+  ('img/login-protection.png')} />
+</div>
 
 ### Netgate docs - SSH
 
@@ -110,7 +117,7 @@ The following IP's need SSH access to your device. These are Mudmaps load
 balancers. Mudmap does not use any other IP addresses for SSH.
 - 44.233.151.27
 - 35.160.120.126 
-- 34.211.200.85.
+- 34.211.200.85
 - 52.33.116.20
 - 52.34.188.175
 

@@ -193,7 +193,7 @@ ove SSH.
 **The password will not be saved or logged at any point.**
 
 [adding]: adding-the-device.md
-[preparing devices]: preparing-devices.md
+[preparing devices]: preparing-devices.mdx
 [paddle]: https://paddle.com?ref=mudmap.io
 [paddle-mm]: stripe-payments.md
 [paddle-payments]: payment-legacy.md
