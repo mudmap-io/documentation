@@ -1,0 +1,48 @@
+---
+title: Organisation Overview
+---
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+Mudmap now supports to concept of *Organisations*. This means multiple user accounts can be linked
+to a single entity, the organisation. More simply, devices can be managed by multiple users as
+long as they belong to the same organisation.
+
+## How does it work?
+
+When a user signs up for Mudmap an organisation is created, and they are then assigned to it. The
+first user becomes the account owner and can add additional users to their organisation.
+
+All users within the organisation can manage the devices within. Only account owners can manage
+access to the organisation, and the billing functions.
+
+## Management
+
+Organisation owners can [update the name][orgname], [add] or [remove] users and
+update [payment] details.
+
+### Updating the organisation name
+
+If you are the account owner, updating the name is as simple as navigating to the *Organisation*
+tab and click *Update* in the Name row.
+
+<div style={{textAlign: 'center'}}>
+  <img  alt="Organisation change name" src=
+    {useBaseUrl
+    ('img/org-change-name.gif')} />
+</div>
+
+## Limitations
+
+There are some limitations:
+
+- Users must have a valid account within Mudmap before they can be assigned to an existing
+organisation
+- Only owners can add or remove users
+- Billing and payment data can only be managed by the account owner
+- Permissions per user, or by user type are in development.
+- Only *owner* and *user* account types exist - if you need more owners in the organisation please get in [contact](mailto:dan@mudmap.io).
+
+[orgname]: #updating-the-organisation-name
+[add]: org-add-user#inviting-users
+[remove]: org-add-user#deleting-members
+[payment]: org-billing

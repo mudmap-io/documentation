@@ -1,0 +1,103 @@
+---
+title: Organisation Membership Management
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl'; export const Highlight = (
+  {children, color}) => (
+  <span style={{
+    backgroundColor: color, borderRadius: '2px', color: '#fff',
+    padding: '0.2rem',
+  }}>
+{children}
+</span>
+);
+
+As an account owner you can add additional users to your organisation. This gives more users
+oversight and shares the responsibility across more of your team.
+This page discusses how the process works and explains the steps required to get started. Removing
+existing users is covered here as well.
+
+## The Process
+
+To add additional users to your organisation, the account owner must first invite them through
+email. After entering the users email into Mudmap's invitation dialog, an automated email is sent
+to that address with joining instructions. Most importantly, their registration token is sent with
+that email.
+
+Once the user receives that email they must then enter it into the user settings page by clicking
+on the <Highlight color="#4e45e4">Change Membership</Highlight> button. The user must then present
+the token from their email, and if valid and if the token is not expired, they will be automatically
+added to the organisation.
+
+Users do not need a valid Mudmap account prior to being invited by the account owner.
+
+Successfully registered users are sent a welcome email and account owners are notified that the
+user joined the organisation.
+
+## Inviting users
+
+To add new users to your organisation, navigate to the Organisation tab inside the Settings page.
+
+Clicking the <Highlight color="#4e45e4">Invite Member</Highlight> button will open a modal where
+you can enter the email of the user you wish to invite.
+
+<div style={{textAlign: 'center'}}>
+  <img  alt="Organisation invite user" src=
+    {useBaseUrl
+    ('img/mudmap-invite-user.gif')} />
+</div>
+
+That user will be sent an email with instructions on how to register with the organisation, and the
+registration token. The email will look something like this.
+
+<div style={{textAlign: 'center'}}>
+  <img  alt="Organisation invite user email" src=
+    {useBaseUrl
+    ('img/mudmap-invite-email.png')} />
+</div>
+
+## Registering with an organisation
+
+Once a user has received the invitation email and [signed up](register-account) for Mudmap they can
+complete the process to join the organisation.
+
+From the Mudmap user settings page, click the <Highlight color="#4e45e4">Change
+Membership</Highlight> button to launch the registration modal.
+
+Entering the token into the modal and clicking <Highlight color="#4e45e4">Invite</Highlight> will
+the complete the process and transfer that user to the organisation.
+
+<div style={{textAlign: 'center'}}>
+  <img  alt="Organisation invite user email" src=
+    {useBaseUrl
+    ('img/mudmap-register-new-user.gif')} />
+</div>
+
+Note that existing devices belonging to that user are **not** transferred across. If that user has
+devices that they wish to be transferred, they must delete them and re-register them with the new
+organisation.
+
+## Viewing Membership
+
+As an account owner, it is possible to both add and remove users. Only account owners can see other
+members.
+
+To see all your organisations members, naviagate to the Membership tab inside the Settings page.
+A table similar to below should be visible.
+
+<div style={{textAlign: 'center'}}>
+  <img  alt="Organisation user membership table" src=
+    {useBaseUrl
+    ('img/mudmap-membership-table.png')} />
+</div>
+
+This table presents information about each user, and allows for the removal of accounts which
+are no longer needed.
+
+### Deleting Members
+
+To delete a member of the organisation, navigate to the Membership tab inside the Settings page.
+Clicking on the <Highlight color="#dc2626">Delete</Highlight> button will prompt the user that this
+action is final. Once approved this user will immediately lose access to the organisation.
+
+Account owners cannot delete themselves, either intentionally or be accident.

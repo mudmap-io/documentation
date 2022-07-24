@@ -8,6 +8,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Mudmap will now only support *pfSense* Community Edition
 :::
 
+:::caution pfSense+ is coming to Mudmap
+A pfSense Plus capable Mudmap is in development. No release date has been set
+but check back often to see any announcements. Until then consider this page
+still in effect.
+:::
 After extensive investigation and developer testing, I have made the 
 decision to suspend support for all [pfSense+] devices going forward. 
 
@@ -27,6 +32,8 @@ pfSense clients. I will not produce a product that could cause loss of
 productivity or worse for a device as critical as your firewall.
 
 ## Where to from here?
+
+
 
 Mudmap continues to support pfSenseCE. The open-source nature of CE means 
 updates to pfSense are easier to integrated into Mudmap. 

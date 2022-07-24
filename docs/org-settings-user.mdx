@@ -1,0 +1,33 @@
+---
+title: User Profile
+---
+import useBaseUrl from '@docusaurus/useBaseUrl'; export const Highlight = (
+  {children, color}) => (
+  <span style={{
+    backgroundColor: color, borderRadius: '2px', color: '#fff',
+    padding: '0.2rem',
+  }}>
+{children}
+</span>
+);
+
+Every account has an associated *User Profile*. In the top right-hand side
+of the dashboard is a dropdown. Inside the dropdown is *Profile*.
+
+The Profile page will show you some important account information:
+
+- Organisation name
+- Name of user
+- Email of user
+- Account role
+- Last updated, or login event
+
+Importantly, it also displays the <Highlight color="#4e45e4">Change Membership</Highlight> button.
+This allows you to change your organisation, more information on this topic
+is found [here](org-add-user#registering-with-an-organisation)
+
+<div style={{textAlign: 'center'}}>
+  <img  alt="Organisation user profile page" src=
+    {useBaseUrl
+    ('img/settings-user.png')} />
+</div>
