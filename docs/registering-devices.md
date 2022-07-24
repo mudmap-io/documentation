@@ -196,7 +196,6 @@ ove SSH.
 [preparing devices]: preparing-devices.mdx
 [paddle]: https://paddle.com?ref=mudmap.io
 [paddle-mm]: stripe-payments.md
-[paddle-payments]: payment-legacy.md
 [payments]: /stripe-payments
 [stripe]: https://stripe.com
 [dashboard-profile]: https://dashboard.mudmap.io/dashboard/profile
