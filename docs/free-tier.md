@@ -29,4 +29,4 @@ How do I subscribe? Head to the [profile] page in the dashboard and click
 Nothing lasts forever, but it's not going anywhere for a while. Any changes 
 to the free tier will be well publicised and fair notice will be issued. 
 
-[profile]: https://dashboard.mudmap.io/dashboard/profile
+[profile]: https://dashboard.mudmap.io/dashboard/settings/organisation

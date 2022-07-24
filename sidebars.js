@@ -30,10 +30,12 @@ module.exports = {
     // "Devices in Detail": [
     //     "detail-view-dashboard",
     // ],
-    "User Profile": [
-      "user-profile-overview",
+    "Settings & User Profile": [
+      "org-overview",
+      "org-settings-user",
+      "org-add-user",
+      "org-billing",
       "stripe-payments",
-      "payment-legacy",
     ],
     "Architecture": [
       "security",

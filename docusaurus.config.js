@@ -19,7 +19,8 @@ module.exports = {
   themeConfig: {
     colorMode: {disableSwitch: false},
     algolia: {
-      apiKey: 'bc5db1742d629962f685dadf0bc4fde2',
+      apiKey: '6851b8b08bd7553136c9b7b89838cc32',
+      appId: 'WK115QK9BN',
       indexName: 'mudmap'
     },
     navbar: {
